@@ -1,0 +1,14 @@
+{
+  "name": "ntt-qa-api-challenge",
+  "version": "1.0.0",
+  "description": "API QA challenge Exercise NTT Data",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "npx codeceptjs run --grep '@userApi'"
+  },
+  "devDependencies": {
+    "codeceptjs": "^3.5.10",
+    "codeceptjs-chai": "^2.3.5"
+  }
+}
